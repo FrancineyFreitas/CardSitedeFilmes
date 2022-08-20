@@ -1,0 +1,242 @@
+*{margin: 0; padding: 0;}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+background-color: rgb(255, 255, 255);
+position: absolute;
+list-style:none;
+border:0px solid #c0c0c0;
+float:left;
+text-align: auto;
+margin-left: 460px;
+margin-right: auto;
+margin-top: -65px;
+font-size: 18px;
+}
+
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+    }
+
+    .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#333;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    }
+
+    .menu li:hover ul, .menu li.over ul{display:block;}
+
+    .menu li ul li{
+        border:1px solid #c0c0c0;
+        display:block;
+        width:150px;
+        }
+
+        .logo {
+            margin-top: -0px;
+    height: 90px;
+    width: 200px;
+    margin-left: 100px;
+        }
+
+.ok {
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+
+#busca {
+padding:100;
+margin-left: 650px;
+}
+
+#txtbusca {
+border:0px solid #222;
+background:#EEE;
+width:260px;
+height:23px;
+margin:0 auto;
+padding:5px 0 5px 5px;
+float:left; // posição do campo
+line-height:36px; // altura da linha
+}
+
+#btnBusca {
+background:#222222;
+position:relative;
+border:0px solid #222;
+color:#FFF; 
+margin:0 auto;
+padding:10px;
+border:0 none;
+font-size:11px;
+font-weight:bold;
+text-transform:uppercase;
+cursor: pointer;
+}
+#btnBusca:hover {
+background:#00cccc; 
+}
+
+h1 {
+    text-align: center;
+    background-color: #7088af;
+    color: #EEE;
+    margin-top: 5px;
+    background-position: 50px;
+}
+<style>
+
+.content {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .card {
+    transition: all 0.3s;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 2px 23px #006aff47;
+    border-radius: 20px;
+    width: 300px;
+    margin: 30px 30px;
+    display:inline-block;
+    margin-right: 40px;
+  }
+
+  .card:hover {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+  }
+  
+  .top-card {
+    padding: 20px;
+    padding-top: 10px;
+  }
+  
+  .title {
+    color: #2b3d59;
+  }
+  
+  .second-text {
+    color: #828fa1;
+  }
+  
+  .media-card1 {
+    background: url(https://2.bp.blogspot.com/-RtdQm3O0A98/WcPS0kqO1_I/AAAAAAAAXR4/NDrq54UYz-0AOtYFJe9U8SMh3NyAys4yACLcBGAs/s1600/Feito%2Bna%2BAm%25C3%25A9rica%2B01.jpg) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .media-card2 {
+    background: url(https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbGNsRiI4Cs7X7QhRazmQi9LaKGUXTe-93js8qT2ov8ENzf2TaH7yNWI9idq2olCuHgxItesIb6oL4soqQ5_Rmm1Wfvv.jpg?r=d2d) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .media-card3 {
+    background: url(https://occ-0-590-448.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABVqcLQpf6mxvyIfcaadFQhph_iN1tmNUjmHziE4hXp6HsNL0ViweqrNA3JUqdX_ukwGIWZzli2G4cry-1PYBFRk22_a8C2LG86Cj.jpg?r=1ef) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .media-card4 {
+    background: url(https://www.nerdsite.com.br/wp-content/uploads/2022/07/IMG_20220723_133141_1200_x_675_pixel.jpg) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .media-card5 {
+    background: url(https://images-na.ssl-images-amazon.com/images/S/pv-target-images/39b5ba3eeeffc0dd011389fbfc82e1d5b6d1c42b104c7cd19402eb86ec7482b8._RI_V_TTW_.jpg) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .media-card6 {
+    background: url(https://upload.wikimedia.org/wikipedia/pt/4/41/Fast_%26_Furious_9_The_Fast_Saga.jpg) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .media-card7 {
+    background: url(https://upload.wikimedia.org/wikipedia/pt/thumb/1/13/John_wick_ver3.jpg/250px-John_wick_ver3.jpg) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .media-card8 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR90_dv3FZw97NkGBNBpmsCHo11fa56NBfcwA-AmVAtwoEtVQJL-uXATycvQ1hizzWH2Q&usqp=CAU) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .media-card9 {
+    background: url(https://saude.abril.com.br/wp-content/uploads/2016/10/divertidamente_0.jpg) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .media-card10 {
+    background: url(https://sm.ign.com/ign_br/screenshot/default/thumb-vida_8xyh.jpg) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .media-card11 {
+    background: url(https://static.wikia.nocookie.net/pixar/images/4/4e/Up_-_Altas_Aventuras_-_P%C3%B4ster_Nacional.jpg/revision/latest/top-crop/width/360/height/360?cb=20190412225504&path-prefix=pt-br) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .media-card12 {
+    background: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5F2F083A4AF64065007D3AD70C782B8BA6CF660126853FBF45FDB560CD7F3DBB/scale?width=1200&aspectRatio=1.78&format=jpeg) center/cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  .bottom-card {
+    padding: 20px;
+  }
+  
+  .bottom-text {
+    color: #445b73;
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+  .actions {
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+   
+  }
